@@ -1,0 +1,133 @@
+body{
+	background: linear-gradient(rgb(240,240,240), rgb(100,100,100));
+    color: ff6363;
+	font-family: 'Crimson Text', serif;	
+	font-size:16;
+}
+
+h1 {
+	color:red;
+    font-weight: 420;
+}
+
+h1,h2,h3,h4{
+	color:red;
+	font-family: 'Nunito', sans-serif;    font-weight: 100;
+} 
+
+
+
+p{
+	font-family: 'Crimson Text', serif;
+	font-size: 20
+}
+
+a{
+	font-family: 'Crimson Text', serif;
+	text-decoration: none;
+	color:red;
+}
+
+a:hover {
+	color:ffbd69;
+}
+
+
+/*MEDIA*/
+
+
+
+@media (max-width: 760px){
+
+	.container{
+		width:(600px)
+	}
+}
+
+@media (max-width: 500px){
+
+	.container{
+		width:400px;
+	}
+}
+
+
+/*Classes*/
+
+.container{
+	width: 700px;
+	margin : 40px auto;
+	text-align: center;
+}
+.card-white {
+	background-color: rgba(200,200,200,0.5);
+	padding: 40px;
+	box-shadow: 0px, 10px, 30px, rgba(0,0,0,0.1);
+	border-radius : 40px;
+	margin: 20px 0px;
+	text-align : center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color:white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display:inline
+	padding :10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color :rgb(230,230,230);
+}
+
+.list-inline i:hover{
+	fontsize: 50px;
+	color:black;
+}
+
+.list-not-centered{
+	text-align: left
+}
+
+.hyperlink:visited {
+  color: purple;
+}
+
+
+.hyperlink:hover{
+	color:yellow;
+}
+
+.hyperlink:visited:hover{
+	color: yellow;
+}
+
+
+
+/*IDs and adjustments*/
+
+#introduction h1 {
+	margin-bottom:10px;
+}
+
+
+
